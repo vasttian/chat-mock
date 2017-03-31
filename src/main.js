@@ -17,6 +17,7 @@ new Vue({
   // router,
   template: '<App/>',
   components: { App },
+  store,
 });
 
 getAllMessages(store);
